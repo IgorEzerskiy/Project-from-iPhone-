@@ -6,7 +6,6 @@ chars_low = "qwertyuiopasdfghjklzxcvbnm"
 generate = ""
 
 for i in range(0, 16):
-value = db["key"]
   r_s = randint(0, len(num_signs)-1)
   r_u = randint(0, len(chars_up)-1)
   r_l = randint(0, len(chars_low)-1)
